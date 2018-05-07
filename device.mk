@@ -18,8 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay 
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -117,9 +116,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/camera/s5k3l8_jetertr_chromatix.xml:system/vendor/etc/camera/s5k3l8_jetertr_chromatix.xml
 	$(LOCAL_PATH)/configs/camera/s5k4h7_jeterof_chromatix.xml:system/vendor/etc/camera/s5k4h7_jeterof_chromatix.xml
 
-# LineageActions
+# MotoActions
 PRODUCT_PACKAGES += \
-    LineageActions
+    MotoActions
 
 # Display
 PRODUCT_PACKAGES += \
