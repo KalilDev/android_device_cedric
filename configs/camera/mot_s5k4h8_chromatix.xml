@@ -79,34 +79,32 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>mot_imx258_common</ISPCommon>
-      <PostProc>mot_imx258_postproc</PostProc>
-      <CPPPreview>mot_imx258_cpp_preview</CPPPreview>
-      <CPPSnapshot>mot_imx258_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>mot_imx258_cpp_liveshot</CPPLiveshot>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="MOT_ALTM_IHDR_VIDEO">
-      <ISPVideo>mot_imx258_ihdr_video</ISPVideo>
-      <A3Video>mot_imx258_ihdr_video_3a</A3Video>
+      <ISPCommon>mot_s5k4h8_common</ISPCommon>
+      <PostProc>mot_s5k4h8_postproc</PostProc>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>mot_imx258_snapshot</ISPPreview>
-      <ISPSnapshot>mot_imx258_snapshot</ISPSnapshot>
-      <ISPVideo>mot_imx258_default_video</ISPVideo>
-      <CPPVideo>mot_imx258_cpp_video</CPPVideo>
-      <A3Preview>mot_imx258_zsl_preview_3a</A3Preview>
-      <A3Video>mot_imx258_zsl_video_3a</A3Video>
+      <ISPPreview>mot_s5k4h8_snapshot</ISPPreview>
+      <ISPSnapshot>mot_s5k4h8_snapshot</ISPSnapshot>
+      <ISPVideo>mot_s5k4h8_video_full</ISPVideo>
+      <CPPVideo>mot_s5k4h8_cpp_video_full</CPPVideo>
+      <CPPPreview>mot_s5k4h8_cpp_preview</CPPPreview>
+      <CPPSnapshot>mot_s5k4h8_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>mot_s5k4h8_cpp_liveshot</CPPLiveshot>
+      <A3Preview>mot_s5k4h8_zsl_preview_3a</A3Preview>
+      <A3Video>mot_s5k4h8_zsl_video_3a</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
-      <ISPPreview>mot_imx258_hfr_120</ISPPreview>
-      <ISPSnapshot>mot_imx258_hfr_120</ISPSnapshot>
-      <ISPVideo>mot_imx258_hfr_120</ISPVideo>
-      <CPPVideo>mot_imx258_cpp_hfr_120</CPPVideo>
-      <A3Preview>mot_imx258_hfr_120_3a</A3Preview>
-      <A3Video>mot_imx258_hfr_120_3a</A3Video>
+      <ISPPreview>mot_s5k4h8_hfr_120</ISPPreview>
+      <ISPSnapshot>mot_s5k4h8_hfr_120</ISPSnapshot>
+      <ISPVideo>mot_s5k4h8_hfr_120</ISPVideo>
+      <CPPVideo>mot_s5k4h8_cpp_hfr_120</CPPVideo>
+      <CPPPreview>mot_s5k4h8_cpp_hfr_120</CPPPreview>
+      <CPPSnapshot>mot_s5k4h8_cpp_hfr_120</CPPSnapshot>
+      <CPPLiveshot>mot_s5k4h8_cpp_hfr_120</CPPLiveshot>
+      <A3Preview>mot_s5k4h8_hfr_120_3a</A3Preview>
+      <A3Video>mot_s5k4h8_hfr_120_3a</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
-

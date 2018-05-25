@@ -110,9 +110,13 @@ PRODUCT_PACKAGES += \
 
 # Camera Configurations
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/msm8937_mot_camera.xml:system/etc/camera/msm8937_mot_camera.xml \
-    $(LOCAL_PATH)/configs/camera/mot_ov5695_chromatix.xml:system/etc/camera/mot_ov5695_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_imx258_chromatix.xml:system/etc/camera/mot_imx258_chromatix.xml
+    $(LOCAL_PATH)/configs/camera/mot_s5k4h8_chromatix.xml:system/vendor/etc/camera/mot_s5k4h8_chromatix.xml \
+	$(LOCAL_PATH)/configs/camera/msm8917_mot_jeter_camera.xml:system/vendor/etc/camera/msm8917_mot_jeter_camera.xml
+	$(LOCAL_PATH)/configs/camera/ov5675_jeterht_chromatix.xml:system/vendor/etc/camera/ov5675_jeterht_chromatix.xml
+	$(LOCAL_PATH)/configs/camera/ov5675_jeterkc_chromatix.xml:system/vendor/etc/camera/ov5675_jeterkc_chromatix.xml
+	$(LOCAL_PATH)/configs/camera/s5k3l8_jeterht_chromatix.xml:system/vendor/etc/camera/s5k3l8_jeterht_chromatix.xml
+	$(LOCAL_PATH)/configs/camera/s5k3l8_jetertr_chromatix.xml:system/vendor/etc/camera/s5k3l8_jetertr_chromatix.xml
+	$(LOCAL_PATH)/configs/camera/s5k4h7_jeterof_chromatix.xml:system/vendor/etc/camera/s5k4h7_jeterof_chromatix.xml
 
 # LineageActions
 PRODUCT_PACKAGES += \
