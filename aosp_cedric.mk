@@ -32,6 +32,11 @@ PRODUCT_MODEL := AOSP on Moto G5
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+# Inherit some common PixelExperience stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 # for specific
 $(call inherit-product, device/motorola/cedric/device.mk)
 $(call inherit-product, vendor/motorola/cedric/cedric-vendor.mk)
